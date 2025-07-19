@@ -26,19 +26,7 @@ body {
     margin-right: 20px;
     width: 80%;
 }
-#ingredients {
-    margin-top: 40px;
-    margin-bottom: 15px;
-    margin-left:120px ;
-    margin-right: 20px;
-}
-#ingredients > ul > li {
-    line-height: 37px;
-    font-size:16px;
-}
-#ingredients > ul li::marker {
-    color:hsl(15, 42%, 35%);
-}
+
 h1 {
     margin-left:130px;
     font-size: 40px;
@@ -79,16 +67,35 @@ h3 {
 #prep_time > li {
     font-size:16px;
 }
-
-#instruction {
-    margin-left: 120px;
+#ingredients {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    margin-left:120px ;
+    margin-right: 20px;
+}
+#ingredients > ul > li {
+    line-height: 37px;
+    font-size:16px;
+}
+#ingredients > ul li::marker {
+    color:hsl(15, 42%, 35%)
 }
 
-
+#instruction {
+    margin-top: 40px;
+    margin-left: 120px;
+}
+#instruction > ol {
+    font-size: 25px;
+}
+#instruction > ol > li {
+    line-height: 40px;
+    font-size: 16px;
+}
 hr {
     width: 80%;
     margin-left: 100px;
-}
+}P
 
 @media (min-width: 1024px) {
     body{
