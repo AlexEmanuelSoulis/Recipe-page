@@ -1,3 +1,6 @@
+@import url("https://fonts.google.com/specimen/Young+Serif");
+@import url("https://fonts.google.com/specimen/Outfit");
+
 * {
     margin:0;
     padding:0;
@@ -39,8 +42,25 @@ h3 {
     font-size:30px
 }
 
-
-
+#prep_time {
+    background-color: hsl(330, 100%, 98%);
+    width: 80%;
+    margin-left: 120px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding-top:35px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-bottom: 35px;
+    line-height: 30px;
+}
+#prep_time > h3{
+    color: hsl(332, 51%, 32%);
+    line-height: 40px;
+}
+#prep_time > li {
+    font-size:16px;
+}
 @media (min-width: 1024px) {
     body{
         width: 1200px;
